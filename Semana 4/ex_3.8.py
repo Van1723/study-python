@@ -9,6 +9,5 @@ def media():
     numeros = input("Digite os números separados por espaço: ").split() ##capta dados
     numeros = [float(num) for num in numeros]  # Converte para numero decimal
     return sum(numeros) / len(numeros) if numeros else 0  ## faz a média
-
 resultado = media() ## resultado
 print(f"Média: {resultado:.2f}") ## imprime o resultado  

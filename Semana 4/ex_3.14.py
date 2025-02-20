@@ -7,3 +7,11 @@
 # >>> trocaPU(ingredientes)
 # >>> ingredientes
 # [’maçãs’, ’açúcar’, ’manteiga’, ’farinha’]
+
+def trocaPU(ingredientes):
+    ingredientes.reverse()  # Inverte a lista original
+    print(ingredientes)  # Exibe a lista invertida
+
+minha_lista = ['farinha', 'açúcar', 'manteiga', 'maçãs']
+trocaPU(minha_lista)
+

@@ -9,3 +9,10 @@
   
 # >>> time
 # [’Sarah’, ’Eleanor’, ’Clare’, ’Ava’]
+
+time = ['Ava', 'Eleanor', 'Clare', 'Sarah']
+time.reverse()  # Inverte a lista original
+
+print(time)  # Exibe a lista invertida
+print(time[0])  # Exibe o primeiro elemento da lista invertida
+print(time[-1])  # Exibe o último elemento da lista invertida
